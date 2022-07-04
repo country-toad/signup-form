@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: row;
+}
+
+.hero {
+  flex: 0 0 auto;
+  overflow: hidden;
+  width: 33vw;
+  height: 100vh;
+}
+
+.signup {
+  flex: 2 0 auto;
+}
