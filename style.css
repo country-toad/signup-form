@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: space;
+  src: url(fonts/SpaceMono-Bold.ttf);
+}
+
 body {
   display: flex;
   flex-flow: row;
@@ -18,5 +23,9 @@ body {
 
 form {
   flex: 2 0 auto;
+}
+
+h2 {
+  font-family: space;
 }
 
