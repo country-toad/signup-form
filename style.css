@@ -25,9 +25,11 @@ body {
 
 form {
   flex: 2 0 auto;
+  background-color: rgb(17, 79, 104);
+  color: rgb(255, 177, 32);
 }
 
-.description {
+h2 {
   font-family: space;
 }
 
