@@ -122,7 +122,11 @@ body {
   display: flex;
   flex-flow: row;
   font-family: serifgothic;
-  font-size: 50px;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20vh;
 }
 
 .form-container {
