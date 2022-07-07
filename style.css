@@ -124,6 +124,7 @@ body {
   align-items: center;
   gap: 30px;
   margin-top: 20vh;
+  padding: 5px 0;
 }
 
 .logo h1 {
