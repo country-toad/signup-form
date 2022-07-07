@@ -19,13 +19,15 @@ body {
   overflow: hidden;
   width: 33vw;
   height: 100vh;
+  background: url(images/splash.png) no-repeat center;
+  background-size: cover;
 }
 
 form {
   flex: 2 0 auto;
 }
 
-h2 {
+.description {
   font-family: space;
 }
 
