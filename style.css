@@ -92,6 +92,11 @@ table {
 	border-spacing: 0;
 }
 
+:root {
+  --form-error-color:rgb(255, 177, 32);
+  --signup-bgcolor: rgb(0, 0, 0);
+}
+
 @font-face {
   font-family: space;
   src: url(fonts/SpaceMono-Regular.ttf);
@@ -140,9 +145,18 @@ body {
 .form-container {
   flex: 2 0 auto;
   background-color: rgb(17, 79, 104);
-  color: rgb(255, 177, 32);
+  color: var(--form-error-color);
 }
 
 h2 {
   font-family: space;
+}
+
+.signup-container {
+  background-color: var(--signup-bgcolor);
+}
+
+.form-description,
+.button-container p {
+  color: white;
 }
