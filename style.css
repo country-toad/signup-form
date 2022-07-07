@@ -97,6 +97,11 @@ table {
   src: url(fonts/SpaceMono-Regular.ttf);
 }
 
+@font-face {
+  font-family: serifgothic;
+  src: url(fonts/SerifGothicStd-Heavy.otf);
+}
+
 body {
   display: flex;
   flex-flow: row;
@@ -109,6 +114,15 @@ body {
   height: 100vh;
   background: url(images/splash.png) no-repeat right;
   background-size: cover;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 70%);
+  color: white;
+  display: flex;
+  flex-flow: row;
+  font-family: serifgothic;
+  font-size: 50px;
 }
 
 .form-container {
