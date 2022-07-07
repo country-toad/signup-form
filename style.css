@@ -94,7 +94,7 @@ table {
 
 @font-face {
   font-family: space;
-  src: url(fonts/SpaceMono-Bold.ttf);
+  src: url(fonts/SpaceMono-Regular.ttf);
 }
 
 body {
@@ -119,10 +119,4 @@ form {
 
 h2 {
   font-family: space;
-  f
 }
-
-/* .form-container {
-  background-color: black;
-  color: white;
-} */
