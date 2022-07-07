@@ -118,15 +118,22 @@ body {
 
 .logo {
   background-color: rgba(0, 0, 0, 70%);
-  color: white;
   display: flex;
   flex-flow: row;
-  font-family: serifgothic;
-  font-size: 60px;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 20vh;
+}
+
+.logo h1 {
+  font-size: 60px;
+  color: white;
+  font-family: serifgothic;
+}
+
+.logo img {
+  margin-left: 30px;
 }
 
 .form-container {
