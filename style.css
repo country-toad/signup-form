@@ -111,7 +111,7 @@ body {
   background-size: cover;
 }
 
-form {
+.form-container {
   flex: 2 0 auto;
   background-color: rgb(17, 79, 104);
   color: rgb(255, 177, 32);
