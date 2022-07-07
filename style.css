@@ -19,7 +19,7 @@ body {
   overflow: hidden;
   width: 33vw;
   height: 100vh;
-  background: url(images/splash.png) no-repeat center;
+  background: url(images/splash.png) no-repeat right;
   background-size: cover;
 }
 
@@ -31,3 +31,7 @@ form {
   font-family: space;
 }
 
+/* .form-container {
+  background-color: black;
+  color: white;
+} */
