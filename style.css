@@ -165,5 +165,10 @@ h2 {
 }
 
 .form-description {
-  padding: 30px;
+  width: 85%;
+  height: 33%;
+  font-size: 18px;
+  display: flex;
+  align-items: flex-end;
+  padding: 50px;
 }
