@@ -146,9 +146,15 @@ body {
   width: 67vw;
 }
 
-.form-container {
+.form-container,
+.form-status {
   background-color: rgb(17, 79, 104);
   color: var(--form-error-color);
+}
+
+.form-container {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 h2 {
@@ -171,4 +177,8 @@ h2 {
   display: flex;
   align-items: flex-end;
   padding: 50px;
+}
+
+label + input {
+  display:block;
 }
