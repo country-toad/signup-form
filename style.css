@@ -191,3 +191,7 @@ label + input {
 .form-column:last-child {
   margin-left: 50px;
 }
+
+label {
+  font-family: serifgothic;
+}
