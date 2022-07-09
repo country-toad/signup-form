@@ -142,14 +142,11 @@ body {
   margin-left: 30px;
 }
 
-.signup-container {
-  width: 67vw;
-}
-
 .form-container,
 .form-status {
   background-color: rgb(17, 79, 104);
   color: var(--form-error-color);
+  padding-left: 50px;
 }
 
 .form-container {
@@ -162,6 +159,7 @@ h2 {
 }
 
 .signup-container {
+  width: 67vw;
   background-color: var(--signup-bgcolor);
 }
 
