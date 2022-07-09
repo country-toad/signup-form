@@ -178,5 +178,11 @@ h2 {
 }
 
 label + input {
-  display:block;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-status {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
