@@ -181,6 +181,7 @@ h2 {
 input {
   display: block;
   margin-bottom: 10px;
+  border-radius: 8px;
 }
 
 input:last-child {
