@@ -182,6 +182,13 @@ input {
   display: block;
   margin-bottom: 10px;
   border-radius: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid rgb(62, 194, 255);
 }
 
 input:last-child {
@@ -197,6 +204,7 @@ input:last-child {
   margin-left: 50px;
 }
 
-label {
+label,
+input {
   font-family: serifgothic;
 }
