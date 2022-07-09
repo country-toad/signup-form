@@ -95,6 +95,7 @@ table {
 :root {
   --form-error-color:rgb(255, 177, 32);
   --signup-bgcolor: rgb(0, 0, 0);
+  --form-padding: 40px;
 }
 
 @font-face {
@@ -146,7 +147,7 @@ body {
 .form-status {
   background-color: rgb(17, 79, 104);
   color: var(--form-error-color);
-  padding-left: 50px;
+  padding-left: var(--form-padding);
 }
 
 .form-container {
@@ -174,7 +175,7 @@ h2 {
   font-size: 18px;
   display: flex;
   align-items: flex-end;
-  padding: 50px;
+  padding: var(--form-padding);
 }
 
 label + input {
@@ -185,4 +186,8 @@ label + input {
 .form-status {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.form-column:last-child {
+  margin-left: 50px;
 }
