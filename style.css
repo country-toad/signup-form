@@ -178,9 +178,13 @@ h2 {
   padding: var(--form-padding);
 }
 
-label + input {
+input {
   display: block;
   margin-bottom: 10px;
+}
+
+input:last-child {
+  margin-bottom: 20px;
 }
 
 .form-status {
