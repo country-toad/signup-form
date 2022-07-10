@@ -184,7 +184,7 @@ h2 {
 input {
   display: block;
   height: 50px;
-  width: 300px;
+  width: 20vw;
   margin-bottom: 15px;
   border-radius: 8px;
   -webkit-appearance: none;
