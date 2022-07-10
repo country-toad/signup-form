@@ -190,10 +190,16 @@ input {
   border: none;
   background: rgb(31, 31, 32);
   color: white;
+  font-family: space;
+  border-bottom: 3px solid rgba(0, 0, 0, 0%);
 }
 
 input:focus {
-  border-bottom: solid rgb(62, 194, 255);
+  border-bottom: 3px solid rgb(62, 194, 255);
+}
+
+input:invalid {
+  border-bottom: 3px solid red;
 }
 
 input:last-child {
@@ -211,12 +217,4 @@ input:last-child {
 
 label {
   font-family: serifgothic;
-}
-
-input {
-  font-family: space;
-}
-
-input:invalid {
-  border-bottom: solid red;
 }
