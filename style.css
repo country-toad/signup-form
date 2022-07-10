@@ -219,3 +219,13 @@ input:last-child {
 label {
   font-family: serifgothic;
 }
+
+
+button {
+  font-family: serifgothic;
+  border: none;
+  padding: 15px 60px;
+  margin: 30px 40px;
+  border-radius: 10px;
+  background: rgb(63, 186, 243);
+}
