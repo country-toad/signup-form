@@ -153,6 +153,7 @@ body {
 .form-container {
   display: flex;
   flex-flow: row nowrap;
+  box-shadow: 0 4px 4px -2px rgb(62, 194, 255);
 }
 
 h2 {
