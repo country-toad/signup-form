@@ -178,10 +178,15 @@ h2 {
   padding: var(--form-padding);
 }
 
+.form-status {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 input {
   display: block;
   height: 50px;
-  width: 240px;
+  width: 300px;
   margin-bottom: 15px;
   border-radius: 8px;
   -webkit-appearance: none;
@@ -204,11 +209,6 @@ input:invalid {
 
 input:last-child {
   margin-bottom: 20px;
-}
-
-.form-status {
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .form-column:last-child {
