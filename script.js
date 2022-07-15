@@ -13,7 +13,7 @@ cpass.addEventListener('focusout', function() {
 })
 
 pass.addEventListener('focusout', function() {
-  if(cpass.value !== pass.value) {
+  if(cpass.value !== pass.value && cpass.value) {
     pass.classList.add('invalid');
     cpass.classList.add('invalid');
   }
